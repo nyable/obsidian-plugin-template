@@ -1,14 +1,14 @@
 {
-  "name": "obsidian-sample-plugin",
-  "version": "0.12.0",
-  "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+  "name": "obsidian-plugin-template",
+  "version": "1.0.0",
+  "description": "This is a sample template for Obsidian plugin",
   "main": "main.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",
     "build": "rollup --config rollup.config.js --environment BUILD:production"
   },
   "keywords": [],
-  "author": "",
+  "author": "hafuhafu",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^18.0.0",
@@ -17,7 +17,11 @@
     "@types/node": "^14.14.37",
     "obsidian": "^0.12.0",
     "rollup": "^2.32.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.38.1",
     "tslib": "^2.2.0",
-    "typescript": "^4.2.4"
+    "typescript": "~4.3.0"
   }
 }
